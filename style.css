@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.nav-right-register a,
+.nav-right-login a {
+    display: inline-block;      
+    padding: 10px 20px;          
+    border: 2px solid #333;      
+    border-radius: 8px;          
+    background-color: #fff;      
+    color: #333;                 
+    text-decoration: none;       
+    font-weight: bold;
+    transition: all 0.3s;        
+    cursor: pointer;
+}
+
+.nav-right-register a:hover,
+.nav-right-login a:hover {
+    background-color: #333;     
+    color: #fff;                 
+    transform: scale(1.05);      
+}
+
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+}
+
+.nav-left img {
+    width: 150px;
+    height: auto;
+}
+
+.about {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-right .btn {
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nav-right .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #e9e9e9;
+}
+
+.hero-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.hero-buttons .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #333;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero-buttons .btn:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* .hero-image img {
+    width: 50vw;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+} */
+
+.boxes-2x2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.boxes-2x2 .box {
+    background-color: #ff4d4d;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    border: 3px dashed aqua;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boxes-2x2 .box:hover {
+    background-color: #b30000;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
